@@ -7,22 +7,22 @@ Are you in [Bengaluru](https://en.wikipedia.org/wiki/Bangalore) and don't know w
 [Here are some options.](example.com)
 
 ## ToDo
-[x] Enter data
-[ ] Represent data in a list on a webpage
-[ ] Make them cards
-[ ] What about a card slideshow?
-[ ] Let people mark visited places. Store data in their browser
-[ ] Add dark mode
-[ ] Make it a PWA
-[ ] Get a nice memorable domain
-[ ] Get more people using & contributing
-[ ] Add links (what kind? google maps?)
-[ ] Add categories (e.g. location / kind of activity / time)
-[ ] Add Kannada version
-[ ] Provide ability to share list of places between users
-[ ] Validate data to see if places still exist (looking at you, SMAAASH)
-[ ] Provide a way for people to contribute places without a GitHub account
-[ ] Recognize contributors
+- [x] Enter data
+- [ ] Represent data in a list on a webpage
+- [ ] Make them cards
+- [ ] What about a card slideshow?
+- [ ] Let people mark visited places. Store data in their browser
+- [ ] Add dark mode
+- [ ] Make it a PWA
+- [ ] Get a nice memorable domain
+- [ ] Get more people using & contributing
+- [ ] Add links (what kind? google maps?)
+- [ ] Add categories (e.g. location / kind of activity / time)
+- [ ] Add Kannada version
+- [ ] Provide ability to share list of places between users
+- [ ] Validate data to see if places still exist (looking at you, SMAAASH)
+- [ ] Provide a way for people to contribute places without a GitHub account
+- [ ] Recognize contributors
 
 ## Contributions
 Feel free to add more activities or finish off stuff in the todo or anything else you like!  
