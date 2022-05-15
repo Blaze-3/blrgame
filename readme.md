@@ -4,11 +4,11 @@ This project isn't affiliated to / sponsored by Dunzo.
 
 ## What
 Are you in [Bengaluru](https://en.wikipedia.org/wiki/Bangalore) and don't know what to do in the weekend?
-[Here are some options.](example.com)
+[Here are some options.](https://blaze-3.github.io/blrgame/)
 
 ## ToDo
 - [x] Enter data
-- [ ] Represent data in a list on a webpage
+- [x] Represent data in a list on a webpage
 - [ ] Make them cards
 - [ ] What about a card slideshow?
 - [ ] Let people mark visited places. Store data in their browser
@@ -34,6 +34,5 @@ If you want to contribute an activity, please provide these fields:
 
 ## License
 Dual licensed under
-[The Unlicense](https://choosealicense.com/licenses/unlicense/) and [MIT](https://choosealicense.com/licenses/mit/).  
-[Note that if you decide to contribute, your contributions will fall under the same license as this repo.](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service#6-contributions-under-repository-license)  
+[The Unlicense](https://choosealicense.com/licenses/unlicense/) and [MIT](https://choosealicense.com/licenses/mit/).   
 The idea behind the dual license is to release this in the public domain but give a fallback to MIT in places where public domain is not recognized.

@@ -1,15 +1,40 @@
 body {
-    background: #272d2d;
+    background: #003D5B;
     color: #e2e2e2;
+    font-family: sans-serif;
 }
 
 a {
     color: #b3e6f5;
 }
 a:visited {
-    color: #c5b5ef;
+    color: #b59aff;
 }
 
+.all-places {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
+    gap: 1rem;
+}
+
+.place {
+    min-height: 6rem;
+    padding: 0.5rem;
+    background: #30638E;
+    color: #cfcfcf;
+    display: grid;
+    place-items: center;
+}
+.place:hover {
+    background: #EDAE49;
+    color: #202020;
+    box-shadow: #00798C 0px 0px 2rem;
+}
+
+footer hr {
+    border-color: #e2e2e2;
+    border-style: solid;
+}
 
 @media (prefers-color-scheme: light) {
 	body {
