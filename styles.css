@@ -1,0 +1,25 @@
+body {
+    background: #272d2d;
+    color: #e2e2e2;
+}
+
+a {
+    color: #b3e6f5;
+}
+a:visited {
+    color: #c5b5ef;
+}
+
+
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: #dfd6cb;
+        color: #272d2d;
+	}
+    a {
+        color: #1e6e86;
+    }
+    a:visited {
+        color: #411f91;
+    }
+}
