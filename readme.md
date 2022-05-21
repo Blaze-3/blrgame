@@ -9,7 +9,7 @@ Are you in [Bengaluru](https://en.wikipedia.org/wiki/Bangalore) and don't know w
 ## ToDo
 - [x] Enter data
 - [x] Represent data in a list on a webpage
-- [ ] Make them cards
+- [x] Make them cards
 - [ ] What about a card slideshow?
 - [ ] Let people mark visited places. Store data in their browser
 - [ ] Add dark mode
@@ -33,6 +33,4 @@ If you want to contribute an activity, please provide these fields:
 * Name (basically a short description including the place name, e.g. 'Picnic at Cubbon Park')
 
 ## License
-Dual licensed under
-[The Unlicense](https://choosealicense.com/licenses/unlicense/) and [MIT](https://choosealicense.com/licenses/mit/).   
-The idea behind the dual license is to release this in the public domain but give a fallback to MIT in places where public domain is not recognized.
+[The Unlicense](https://choosealicense.com/licenses/unlicense/).

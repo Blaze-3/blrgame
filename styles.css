@@ -1,18 +1,49 @@
+:root {
+    --bg-color: #7D1E6A;
+    --text-color: #ffbce5;
+    --card-color: #EEB0B0;
+    --card-text-color: #333;
+    --card-hover-color: #874356;
+    --card-hover-text-color: #F6E7D8;
+    --link-color: #8ee5ff;
+    --link-visited-color: #fafa3e;
+    --footer-color: #F68989;
+
+    --bg-color-light: #fbedc4;
+    --text-color-light: #222;
+    --card-color-light: #a7ecff;
+    --card-text-color-light: #222;
+    --card-hover-color-light: #5dc695;
+    --card-hover-text-color-light: #fffab9;
+    --link-color-light: #051b46;
+    --link-visited-color-light: #870cbb;
+    --footer-color-light: #5197ae;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./assets/OpenSans-Regular-webfont.woff') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    background: #003D5B;
-    color: #e2e2e2;
-    font-family: sans-serif;
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
-    color: #b3e6f5;
+    color: var(--link-color);
 }
+
 a:visited {
-    color: #b59aff;
+    color: var(--link-visited-color);
 }
 
 .all-places {
     display: grid;
+    /* i don't exactly understand how this works */
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
     gap: 1rem;
 }
@@ -20,31 +51,51 @@ a:visited {
 .place {
     min-height: 6rem;
     padding: 0.5rem;
-    background: #30638E;
-    color: #cfcfcf;
+    background: var(--card-color);
+    color: var(--card-text-color);
     display: grid;
     place-items: center;
+    text-align: center;
+    font-size: 1.2rem;
 }
+
 .place:hover {
-    background: #EDAE49;
-    color: #202020;
-    box-shadow: #00798C 0px 0px 2rem;
+    background: var(--card-hover-color);
+    color: var(--card-hover-text-color);
 }
 
 footer hr {
-    border-color: #e2e2e2;
+    border-color: var(--footer-color);
     border-style: solid;
+    border-width: 0.25rem;
+    margin-top: 2rem;
 }
 
 @media (prefers-color-scheme: light) {
-	body {
-		background-color: #dfd6cb;
-        color: #272d2d;
-	}
-    a {
-        color: #1e6e86;
+    body {
+        background: var(--bg-color-light);
+        color: var(--text-color-light);
     }
+
+    a {
+        color: var(--link-color-light);
+    }
+
     a:visited {
-        color: #411f91;
+        color: var(--link-visited-color-light);
+    }
+
+    .place {
+        background: var(--card-color-light);
+        color: var(--card-text-color-light);
+    }
+
+    .place:hover {
+        background: var(--card-hover-color-light);
+        color: var(--card-hover-text-color-light);
+    }
+
+    footer hr {
+        border-color: var(--footer-color-light);
     }
 }
