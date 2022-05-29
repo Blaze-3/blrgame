@@ -22,6 +22,7 @@ Are you in [Bengaluru](https://en.wikipedia.org/wiki/Bangalore) and don't know w
 - [ ] Provide ability to share list of places between users
 - [ ] Validate data to see if places still exist (looking at you, SMAAASH)
 - [ ] Provide a way for people to contribute places without a GitHub account
+- [ ] Write a contribution.md (better community standards hehehe)
 - [ ] Recognize contributors
 
 ## Contributions
@@ -31,6 +32,8 @@ At this time the goal is to keep this app serverless and distribute through GitH
 
 If you want to contribute an activity, please provide these fields:
 * Name (basically a short description including the place name, e.g. 'Picnic at Cubbon Park')
+
+If you want to add a place directly, you can do so by appending it in [`data/places.json`](./data/places.json)
 
 ## License
 [The Unlicense](https://choosealicense.com/licenses/unlicense/).
